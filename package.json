@@ -1,0 +1,27 @@
+{
+	"name": "nuxt-app",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"tauri": "tauri"
+	},
+	"dependencies": {
+		"@nuxt/ui": "3.0.0-alpha.9",
+		"@nuxt/ui-pro": "patch:@nuxt/ui-pro@npm%3A3.0.0-alpha.9#~/.yarn/patches/@nuxt-ui-pro-npm-3.0.0-alpha.9-f55e2142ec.patch",
+		"nuxt": "^3.14.1592",
+		"vue": "latest",
+		"vue-router": "latest"
+	},
+	"devDependencies": {
+		"eslint": "^8.57.0",
+		"eslint-config-neon": "^0.1.62",
+		"prettier": "^3.2.4",
+		"prettier-plugin-tailwindcss": "^0.6.6"
+	},
+	"packageManager": "yarn@4.5.3"
+}
